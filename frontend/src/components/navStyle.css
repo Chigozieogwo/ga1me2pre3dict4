@@ -1,0 +1,63 @@
+.sign {
+  color: white !important;
+  background-color: #f8b133;
+}
+.nav-link {
+  color: white !important;
+}
+.sign:hover {
+  color: white !important;
+  /* border: #32cd32 solid .1px; */
+  background-color: #ffa200;
+  transition: all 0.3s ease;
+}
+.register {
+  color: white;
+  background-color: #32cd32;
+}
+.register:hover {
+  color: white;
+  background-color: #f8b133;
+  transition: all 0.3s ease;
+}
+.sign2 {
+  color: white;
+  background-color: #f8b133;
+}
+.sign2:hover {
+  color: white;
+  background-color: #32cd32;
+  transition: all 0.3s ease;
+}
+.footer-contact {
+  background-color: #f8b133;
+  /* padding-top: 7px;
+  padding-bottom: 7px; */
+}
+.footer:hover {
+  color: #f8b133;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+.promo:hover {
+  box-shadow: 0 6px 20px rgb(50, 205, 50);
+  /* box-shadow: 0 6px 150px rgba(181, 185, 190, 0.102); */
+
+  transform: scale(1.06);
+  transition: all 0.05s ease-out;
+  color: rgb(50, 205, 50);
+}
+@media (max-width: 960px) {
+  .promo {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+.promobutton1:hover {
+  box-shadow: 9 6px 20px rgba(39, 108, 236, 0.3);
+  /* box-shadow: 0 6px 150px rgba(181, 185, 190, 0.102); */
+
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+  /* color: #f8b133; */
+}

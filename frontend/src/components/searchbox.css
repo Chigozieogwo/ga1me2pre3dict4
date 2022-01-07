@@ -1,0 +1,122 @@
+.container2 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ==== 1. animated seachbox ===== */
+#animated input[type='text'] {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #f8b133;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
+}
+
+#animated input[type='text']:focus {
+  width: 700px;
+}
+
+#animated i {
+  position: relative;
+  left: 30px;
+}
+
+/* ===== 2. standard seachbox ==== */
+
+.search-txt-input {
+  padding: 12px 20px;
+  font-size: 14px;
+  border: 1px solid #f8b133;
+  border-right: 0px;
+  border-top-left-radius: 4px 4px;
+  border-bottom-left-radius: 4px 4px;
+  width: 400px;
+}
+.search-button {
+  padding: 12px 15px;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  border: solid 1px #f8b133;
+  border-right: 0px;
+  background: #f8b133;
+  border-top-right-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+  position: relative;
+  left: -5px;
+}
+.search-button:hover {
+  text-decoration: none;
+  background: #f8b133;
+}
+
+/* Fixes submit button height problem in Firefox */
+.search-button::-moz-focus-inner {
+  border: 0;
+}
+
+/* === 3. standard animated seachbox === */
+
+#animated-2 .search-txt-input {
+  width: 200px;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
+}
+
+#animated-2 input[type='text']:focus {
+  width: 500px;
+  border: solid 1px #f8b133;
+}
+
+/* == 4. standard seachbox with icon === */
+
+button[type='submit'] {
+  background-color: #f8b133;
+  color: #fff;
+  cursor: pointer;
+}
+button[type='submit']:hover {
+  background-color: #f8b133;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* === 5. standard seachbox with icon animated === */
+
+#standard-3 .search-txt-input {
+  width: 200px;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
+}
+
+#standard-3 input[type='text']:focus {
+  width: 500px;
+}
+
+@media (max-width: 499px) {
+  .search-txt-input {
+    width: 115px;
+  }
+}
+@media (width: 500px) {
+  .search-txt-input {
+    width: 115px;
+  }
+}
+@media (max-width: 900px) and (min-width: 501px) {
+  .search-txt-input {
+    width: 148px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 901px) {
+  .search-txt-input {
+    width: 148px;
+  }
+}
