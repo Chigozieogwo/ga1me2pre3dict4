@@ -8,13 +8,22 @@
   .span1 {
     font-size: 10px;
   } */
-  .countwidth {
-    width: 300px !important;
+  /* .countwidth {
+    width: 900px !important;
+  } */
+}
+@media (max-width: 960px) {
+  .tablehead {
+    font-size: 0.5rem !important;
+  }
+  .tablebody {
+    font-size: 0.4rem !important;
+    font-weight: bold;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  div.hideme {
+  .hideme {
     display: none;
   }
 }

@@ -10,7 +10,7 @@ const AboutUsScreen = () => {
           ABOUT US
         </h1>
         <p style={{ fontSize: '1.2em' }}>
-          Xcesswin is a sports prediction website that offers football
+          Ritepredict is a sports prediction website that offers football
           predictions, tennis predictions, basketball predictions, handball
           predictions, ice hockey predictions, tips & analysis based on
           algorithms, detailed analysis, betting tips, forms and statistics, and
@@ -25,7 +25,7 @@ const AboutUsScreen = () => {
           from the recommendations we give.
         </p>
         <p style={{ fontSize: '1.2em' }}>
-          Xcesswin's specialists provide predictions for over 50 leagues,
+          Ritepredict's specialists provide predictions for over 50 leagues,
           including football, tennis, basketball, handball, and ice hockey. We
           are meticulous in our work and are focused on the success of our
           customers. We pledge to assist you with your wagers! Our expert team
@@ -34,7 +34,7 @@ const AboutUsScreen = () => {
           basketball predictions tips & Algorithm-based Research.
         </p>
         <p style={{ fontSize: '1.2em' }}>
-          With Xcesswin Prediction website your winning is sure.
+          With Ritepredict Prediction website your winning is sure.
         </p>
       </div>
     </FormContainer>

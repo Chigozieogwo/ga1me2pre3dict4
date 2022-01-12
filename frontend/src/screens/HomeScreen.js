@@ -139,7 +139,7 @@ const HomeScreen = ({ history, match }) => {
               </p>
               <h6
                 style={{
-                  fontSize: '.7rem',
+                  fontSize: '.8rem',
                 }}>
                 Our average accuracy is as high as 90-95%, We use relevant
                 statistics and trends to determine our predictions.Our main aim
@@ -177,11 +177,7 @@ const HomeScreen = ({ history, match }) => {
                           </span>
                         </div>
                       ) : (
-                        <thead
-                          style={{
-                            fontSize: '.6rem',
-                          }}
-                          className="bg-primary">
+                        <thead className="bg-primary tablehead">
                           <tr>
                             {/* <th
                               style={{
@@ -238,11 +234,7 @@ const HomeScreen = ({ history, match }) => {
                       )}
 
                       {prediction.fixture.map((fixture, index) => (
-                        <tbody
-                          style={{
-                            fontSize: '.5rem',
-                            fontWeight: 'bold',
-                          }}>
+                        <tbody className="tablebody">
                           <tr key={fixture._id}>
                             {/* <td
                               style={{
@@ -354,11 +346,7 @@ const HomeScreen = ({ history, match }) => {
                           </span>
                         </div>
                       ) : (
-                        <thead
-                          style={{
-                            fontSize: '.6rem',
-                          }}
-                          className="bg-primary">
+                        <thead className="bg-primary tablehead">
                           <tr>
                             <th
                               style={{
@@ -408,11 +396,7 @@ const HomeScreen = ({ history, match }) => {
                       )}
 
                       {prediction.fixture.map((fixture, index) => (
-                        <tbody
-                          style={{
-                            fontSize: '.5rem',
-                            fontWeight:'bold'
-                          }}>
+                        <tbody className="tablebody">
                           <tr key={fixture._id}>
                             <td
                               style={{
@@ -490,7 +474,7 @@ const HomeScreen = ({ history, match }) => {
                 </h4>
                 <h6
                   style={{
-                    fontSize: '.7rem',
+                    fontSize: '.8rem',
                   }}>
                   Gambling or betting online can be a very stimulating and fun
                   thing but it becomes more interesting when you win every bet
@@ -500,50 +484,41 @@ const HomeScreen = ({ history, match }) => {
                   win. Although they do not promise you 100% assurance, the key
                   to winning big is by applying the tips and playing smart.
                 </h6>
+
                 <section class="icons-container">
-                  <Row
-                    style={{
-                      fontSize: '.8rem',
-                    }}>
-                    <Col
-                      style={{
-                        fontSize: '.6rem',
-                      }}
-                      md={6}>
+                  <Row>
+                    <Col sm={6}>
                       <div class="icons">
                         <i class="fas fa-home"></i>
                         <div class="content">
                           <h3
                             style={{
-                              fontSize: '.6rem',
+                              fontSize: '2rem',
                             }}>
                             500,000 +
                           </h3>
-                          <p>Organic Visitors</p>
+                          <p
+                            style={{
+                              fontSize: '1rem',
+                            }}>
+                            Organic Visitors
+                          </p>
                         </div>
                       </div>
                     </Col>
-                    <Col
-                      style={{
-                        fontSize: '.6rem',
-                      }}
-                      md={6}>
+                    <Col sm={6}>
                       <div class="icons">
-                        <i
-                          style={{
-                            fontSize: '.8rem',
-                          }}
-                          class="fas fa-user-tie"></i>
+                        <i class="fas fa-user-tie"></i>
                         <div class="content">
                           <h3
                             style={{
-                              fontSize: '.6rem',
+                              fontSize: '2rem',
                             }}>
                             50,000 +
                           </h3>
                           <p
                             style={{
-                              fontSize: '.8rem',
+                              fontSize: '1rem',
                             }}>
                             Vip Users
                           </p>
@@ -551,25 +526,42 @@ const HomeScreen = ({ history, match }) => {
                       </div>
                     </Col>
                   </Row>
-                  <Row
-                    style={{
-                      fontSize: '.8rem',
-                    }}>
-                    <Col md={6}>
+                  <Row>
+                    <Col sm={6}>
                       <div class="icons">
                         <i class="fas fa-users"></i>
                         <div class="content">
-                          <h3>800,000 +</h3>
-                          <p>Registered Users</p>
+                          <h3
+                            style={{
+                              fontSize: '2rem',
+                            }}>
+                            800,000 +
+                          </h3>
+                          <p
+                            style={{
+                              fontSize: '1rem',
+                            }}>
+                            Registered Users
+                          </p>
                         </div>
                       </div>
                     </Col>
-                    <Col md={6}>
+                    <Col sm={6}>
                       <div class="icons">
                         <i class="fas fa-address-book"></i>
                         <div class="content">
-                          <h3>1 Million +</h3>
-                          <p>Active Users</p>
+                          <h3
+                            style={{
+                              fontSize: '2rem',
+                            }}>
+                            1 Million +
+                          </h3>
+                          <p
+                            style={{
+                              fontSize: '1rem',
+                            }}>
+                            Active Users
+                          </p>
                         </div>
                       </div>
                     </Col>
@@ -591,23 +583,13 @@ const HomeScreen = ({ history, match }) => {
                             backgroundColor: '#32CD32',
                             fontSize: '.8rem',
                           }}>
-                          {/* <span style={{
-                          
-                           fontSize: '.6rem',
-                         }}>
-     <DateIcon /> -
-                         {moment(prediction.date).format('DD/MM/YYYY')}
-                           </span> */}
                           📢📢📢
                           <span style={{ fontWeight: 'bold' }} className="ms-3">
                             {prediction.title}
                           </span>
                         </div>
                       ) : (
-                        <thead style={{
-                          
-                          fontSize: '.6rem',
-                        }} className="bg-primary">
+                        <thead className="bg-primary tablehead">
                           <tr>
                             <th
                               style={{
@@ -657,11 +639,7 @@ const HomeScreen = ({ history, match }) => {
                       )}
 
                       {prediction.fixture.map((fixture, index) => (
-                        <tbody style={{
-                          
-                          fontSize: '.5rem',
-                          fontWeight:'bold'
-                        }}>
+                        <tbody className="tablebody">
                           <tr key={fixture._id}>
                             <td
                               style={{
@@ -746,145 +724,146 @@ const HomeScreen = ({ history, match }) => {
               }}>
               Promo Offers
             </p>
-            <div
-              onClick={() =>
-                window.open(
-                  'https://refpa.top/L?tag=d_1256913m_97c_&site=1256913&ad=97',
-                  '_blank'
-                )
-              }
-              className="text-center  promo mt-4  "
-              style={{
-                border: '2px solid #32CD32',
-                borderRadius: '15px',
-                cursor: 'pointer',
-                // backgroundColor: 'rgba(181, 185, 190, 0.102)',
-              }}>
-              <div className="p-1 h-50">
-                <img
-                  class="img-fluid w-25 mt-3 rounded-circle"
-                  src={image1}
-                  alt=""></img>
-                <br></br>
-                <h6 className=" text-primary pt-1 bolder">
-                  Up To #100,000 to grab
-                </h6>
-                <img class="img-fluid w-75" src={imagegif} alt=""></img>
-                <br></br>
-                <NavBtnLink>
-                  <Button
-                    className="promobutton "
-                    style={{ width: '25em', backgroundColor: '#32CD32' }}>
-                    GET 200% BONUS
-                  </Button>
-                </NavBtnLink>
+            <div className="">
+              <div
+                onClick={() =>
+                  window.open(
+                    'https://refpa.top/L?tag=d_1256913m_97c_&site=1256913&ad=97',
+                    '_blank'
+                  )
+                }
+                className="text-center  promo mt-4  "
+                style={{
+                  border: '2px solid #32CD32',
+                  borderRadius: '15px',
+                  cursor: 'pointer',
+                  // backgroundColor: 'rgba(181, 185, 190, 0.102)',
+                }}>
+                <div className="p-1 h-50">
+                  <img
+                    class="img-fluid w-25 mt-3 rounded-circle"
+                    src={image1}
+                    alt=""></img>
+                  <br></br>
+                  <h6 className=" text-primary pt-1 bolder">
+                    Up To #100,000 to grab
+                  </h6>
+                  <img class="img-fluid w-75" src={imagegif} alt=""></img>
+                  <br></br>
+                  <NavBtnLink>
+                    <Button
+                      className="promobutton "
+                      style={{ width: '25em', backgroundColor: '#32CD32' }}>
+                      GET 200% BONUS
+                    </Button>
+                  </NavBtnLink>
+                </div>
+              </div>
+
+              <div
+                className="text-center hideme promo mt-4  "
+                style={{
+                  border: '2px solid #32CD32',
+                  borderRadius: '15px',
+                  // backgroundColor: 'rgba(181, 185, 190, 0.102)',
+                }}>
+                <div className="p-1 h-50">
+                  <img
+                    class="img-fluid w-25 mt-3 rounded-circle"
+                    src={imageLogo}
+                    alt=""></img>
+                  <br></br>
+                  <h6 className=" mt-1 pt-2 text-primary bolder">
+                    Up To 100,000 to grab
+                  </h6>
+                  <NavBtnLink to="/admin/predictionviplist">
+                    <Button
+                      className="promobutton "
+                      style={{ width: '25em', backgroundColor: '#32CD32' }}>
+                      GET BONUS
+                    </Button>
+                  </NavBtnLink>
+                </div>
+              </div>
+
+              <div
+                className="text-center hideme promo mt-4  "
+                style={{
+                  border: '2px solid #32CD32',
+                  borderRadius: '15px',
+                  // backgroundColor: 'rgba(181, 185, 190, 0.102)',
+                }}>
+                <div className="p-1 h-50">
+                  <img
+                    class="img-fluid w-25 mt-3 rounded-circle"
+                    src={imageLogo}
+                    alt=""></img>
+                  <br></br>
+                  <h6 className=" mt-1 pt-2 text-primary bolder">
+                    Up To 100,000 to grab
+                  </h6>
+                  <NavBtnLink to="/admin/predictionviplist">
+                    <Button
+                      className="promobutton "
+                      style={{ width: '25em', backgroundColor: '#32CD32' }}>
+                      GET BONUS
+                    </Button>
+                  </NavBtnLink>
+                </div>
+              </div>
+
+              <div
+                className="text-center hideme promo mt-4  "
+                style={{
+                  border: '2px solid #32CD32',
+                  borderRadius: '15px',
+                  // backgroundColor: 'rgba(181, 185, 190, 0.102)',
+                }}>
+                <div className="p-1 h-50">
+                  <img
+                    class="img-fluid w-25 mt-3 rounded-circle"
+                    src={imageLogo}
+                    alt=""></img>
+                  <br></br>
+                  <h6 className=" mt-1 pt-2 text-primary bolder">
+                    Up To 100,000 to grab
+                  </h6>
+                  <NavBtnLink to="/admin/predictionviplist">
+                    <Button
+                      className="promobutton "
+                      style={{ width: '25em', backgroundColor: '#32CD32' }}>
+                      GET BONUS
+                    </Button>
+                  </NavBtnLink>
+                </div>
+              </div>
+
+              <div
+                className="text-center hideme  promo mt-4 mb-4  "
+                style={{
+                  border: '2px solid #32CD32',
+                  borderRadius: '15px',
+                  // backgroundColor: 'rgba(181, 185, 190, 0.102)',
+                }}>
+                <div className="p-1 h-50">
+                  <img
+                    class="img-fluid w-25 mt-3 rounded-circle"
+                    src={imageLogo}
+                    alt=""></img>
+                  <br></br>
+                  <h6 className=" mt-1 pt-2 text-primary bolder">
+                    Up To 100,000 to grab
+                  </h6>
+                  <NavBtnLink to="/admin/predictionviplist">
+                    <Button
+                      className="promobutton "
+                      style={{ width: '25em', backgroundColor: '#32CD32' }}>
+                      GET BONUS
+                    </Button>
+                  </NavBtnLink>
+                </div>
               </div>
             </div>
-
-            <div
-              className="text-center  promo mt-4  "
-              style={{
-                border: '2px solid #32CD32',
-                borderRadius: '15px',
-                // backgroundColor: 'rgba(181, 185, 190, 0.102)',
-              }}>
-              <div className="p-1 h-50">
-                <img
-                  class="img-fluid w-25 mt-3 rounded-circle"
-                  src={imageLogo}
-                  alt=""></img>
-                <br></br>
-                <h6 className=" mt-1 pt-2 text-primary bolder">
-                  Up To 100,000 to grab
-                </h6>
-                <NavBtnLink to="/admin/predictionviplist">
-                  <Button
-                    className="promobutton "
-                    style={{ width: '25em', backgroundColor: '#32CD32' }}>
-                    GET BONUS
-                  </Button>
-                </NavBtnLink>
-              </div>
-            </div>
-
-            <div
-              className="text-center  promo mt-4  "
-              style={{
-                border: '2px solid #32CD32',
-                borderRadius: '15px',
-                // backgroundColor: 'rgba(181, 185, 190, 0.102)',
-              }}>
-              <div className="p-1 h-50">
-                <img
-                  class="img-fluid w-25 mt-3 rounded-circle"
-                  src={imageLogo}
-                  alt=""></img>
-                <br></br>
-                <h6 className=" mt-1 pt-2 text-primary bolder">
-                  Up To 100,000 to grab
-                </h6>
-                <NavBtnLink to="/admin/predictionviplist">
-                  <Button
-                    className="promobutton "
-                    style={{ width: '25em', backgroundColor: '#32CD32' }}>
-                    GET BONUS
-                  </Button>
-                </NavBtnLink>
-              </div>
-            </div>
-
-            <div
-              className="text-center  promo mt-4  "
-              style={{
-                border: '2px solid #32CD32',
-                borderRadius: '15px',
-                // backgroundColor: 'rgba(181, 185, 190, 0.102)',
-              }}>
-              <div className="p-1 h-50">
-                <img
-                  class="img-fluid w-25 mt-3 rounded-circle"
-                  src={imageLogo}
-                  alt=""></img>
-                <br></br>
-                <h6 className=" mt-1 pt-2 text-primary bolder">
-                  Up To 100,000 to grab
-                </h6>
-                <NavBtnLink to="/admin/predictionviplist">
-                  <Button
-                    className="promobutton "
-                    style={{ width: '25em', backgroundColor: '#32CD32' }}>
-                    GET BONUS
-                  </Button>
-                </NavBtnLink>
-              </div>
-            </div>
-
-            <div
-              className="text-center  promo mt-4 mb-4  "
-              style={{
-                border: '2px solid #32CD32',
-                borderRadius: '15px',
-                // backgroundColor: 'rgba(181, 185, 190, 0.102)',
-              }}>
-              <div className="p-1 h-50">
-                <img
-                  class="img-fluid w-25 mt-3 rounded-circle"
-                  src={imageLogo}
-                  alt=""></img>
-                <br></br>
-                <h6 className=" mt-1 pt-2 text-primary bolder">
-                  Up To 100,000 to grab
-                </h6>
-                <NavBtnLink to="/admin/predictionviplist">
-                  <Button
-                    className="promobutton "
-                    style={{ width: '25em', backgroundColor: '#32CD32' }}>
-                    GET BONUS
-                  </Button>
-                </NavBtnLink>
-              </div>
-            </div>
-
             <div className="hideme">
               <div
                 style={{ display: 'flex', justifyContent: 'center' }}
@@ -921,19 +900,21 @@ const HomeScreen = ({ history, match }) => {
           </Col>
         </Row>
         <Row>
-          <Col className="ps-4 pe-4 ms-4 me-4" sm={12}>
+          <Col className="ps-2 pe-5 ms-4 me-5 mt-4" sm={12}>
             <h4 className="text-center text-capitalize pt-2">
               Who Is The Top Football Prediction Website?
             </h4>
-            <h6>
-              Top Football Prediction Site. Xcesswin.com is the Top Football
+            <h6
+              style={{
+                fontSize: '.8rem',
+              }}>
+              Football Prediction Site, Ritepredict.com is the Top Football
               Prediction Site. We provide extensive soccer betting tips and
-              accurate football prediction for free on soccer matches Xcesswin
-              is the top football prediction site in the world . Xcesswin
-              provide bettors with accurate football Predictions for free as
-              well, results, statistics, bet tip, betting odds, along with
-              helpful information on football betting. We have over 120
-              worldwide football leagues to choose from and Xcesswin offers
+              accurate football prediction for free on soccer matches .
+              Ritepredict provide bettors with accurate football Predictions for
+              free as well, results, statistics, bet tip, betting odds, along
+              with helpful information on football betting. We have over 120
+              worldwide football leagues to choose from and Ritepredict offers
               visitors up to 20,000 predictions every season! We also share the
               best deals from bookmarkers in your country. As we only feature
               trusted bookmarkers and not every single one available. Football
@@ -944,14 +925,17 @@ const HomeScreen = ({ history, match }) => {
               real football prediction
             </h6>
             <h4 className="text-center text-capitalize pt-2">
-              Is Xcesswin The Accurate Football Prediction Website?
+              Is Ritepredict The Accurate Football Prediction Website?
             </h4>
-            <h6>
-              Accurate Football Prediction Website. Xcesswin is an Accurate
+            <h6
+              style={{
+                fontSize: '.8rem',
+              }}>
+              Accurate Football Prediction Website. Ritepredict is an Accurate
               Football Prediction Site For Free. Football betting has become a
               foremost and regular activities among soccer fans. An enormous
               number of punter are earning huge soccer betting when used with an
-              accurate football prediction website. Xcesswin is the best
+              accurate football prediction website. Ritepredict is the best
               football prediction site . We are 100% consistent in giving
               accurate football predictions and greatly outstanding tips with
               highest level of accuracy among other football prediction
@@ -960,38 +944,44 @@ const HomeScreen = ({ history, match }) => {
               Website, you can enjoy 100% winning rate. We provides you with a
               wide range of accurate football predictions for free that you can
               depend on for winning. So, If you are looking for sites that
-              predict football matches correctly, Xcesswin is the site that
+              predict football matches correctly, Ritepredict is the site that
               predict football matches correctly.
             </h6>
             <h4 className="text-center text-capitalize pt-2">
-              Why Is Xcesswin The Best Football Prediction Website In The World?
+              Why Is Ritepredict The Best Football Prediction Website In The
+              World?
             </h4>
-            <h6>
-              Best Football Prediction Site. Xcesswin is the best football
-              prediction site in the world. Xcesswin is the best football
-              prediction site When it comes to providing football betting tips
-              that is making profits from sports betting. All you need is a good
-              football prediction site like Xcesswin.com that predict matches
-              correctly for you to stake and win. Our unique interface makes it
-              easy for the users to browse easily both on desktop and mobile for
-              online sports gambling. If you are looking for top soccer
-              prediction sites for the purpose of reliable soccer tips and
-              constitent winning, Xcesswin is the perfect site for you. So
-              fortunately if you are a bettor and are searching for the best
-              football prediction site of the year, accurate football prediction
-              website, site that predict football matches correctly, top soccer
-              prediction sites, best football prediction site in the world,
-              accurate soccer prediction sites, best prediction site, accurate
-              football predictions for free , accurate football prediction, best
+            <h6
+              style={{
+                fontSize: '.8rem',
+              }}>
+              Ritepredict is the best football prediction site When it comes to
+              providing football betting tips that is making profits from sports
+              betting. All you need is a good football prediction site like
+              Ritepredict.com that predict matches correctly for you to stake
+              and win. Our unique interface makes it easy for the users to
+              browse easily both on desktop and mobile for online sports
+              gambling. If you are looking for top soccer prediction sites for
+              the purpose of reliable soccer tips and constitent winning,
+              Ritepredict is the perfect site for you. So fortunately if you are
+              a bettor and are searching for the best football prediction site
+              of the year, accurate football prediction website, site that
+              predict football matches correctly, top soccer prediction sites,
+              best football prediction site in the world, accurate soccer
+              prediction sites, best prediction site, accurate football
+              predictions for free , accurate football prediction, best
               prediction site free, soccer prediction site, best football
               prediction site, football prediction, accurate prediction sites,
               accurate football prediction sites, best prediction site in the
               world, bet genuine, accurate soccer prediction, best soccer
-              prediction site, genuine prediction, Xcesswin is capable of
+              prediction site, genuine prediction, Ritepredict is capable of
               handling your request and providing the solution to your search.
               We make winning our daily culture
             </h6>
-            <h6>
+            <h6
+              style={{
+                fontSize: '.8rem',
+              }}>
               Best Football Prediction Site Free Football Prediction Site Good
               Football Prediction Site Best Soccer Prediction Site Free Soccer
               Prediction Site Good Soccer Prediction Site Top Football

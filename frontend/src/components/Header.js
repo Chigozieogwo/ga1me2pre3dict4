@@ -30,7 +30,7 @@ const Header = () => {
       <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>XCESSWIN</Navbar.Brand>
+            <Navbar.Brand>RITEPREDICT</Navbar.Brand>
           </LinkContainer>
           {/* <Route render={({ history }) => <SearchBox history={history} />} /> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -58,12 +58,14 @@ const Header = () => {
                 <Nav.Link>Disclaimer</Nav.Link>
               </LinkContainer>
 
-              <LinkContainer  onClick={() =>
-                          window.open(
-                            'https://refpa.top/L?tag=d_1256913m_97c_&site=1256913&ad=97',
-                            '_blank'
-                          )
-                        } to="">
+              <LinkContainer
+                onClick={() =>
+                  window.open(
+                    'https://refpa.top/L?tag=d_1256913m_97c_&site=1256913&ad=97',
+                    '_blank'
+                  )
+                }
+                to="">
                 <Nav.Link>How To Pay</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/contact-us">

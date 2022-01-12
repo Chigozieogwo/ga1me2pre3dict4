@@ -37,8 +37,12 @@ const ContactUsScreen = () => {
             </p>
             <p style={{ fontSize: '1em' }}>Calls Only : +2347036688048</p>
             <p style={{ fontSize: '1em' }}>WhatsApp Only : +2347036688048</p>
-            <p style={{ fontSize: '1em' }}>Email Us : contact@xcesswin.com</p>
-            <p style={{ fontSize: '1em' }}>For Adverts : advert@xcesswin.com</p>
+            <p style={{ fontSize: '1em' }}>
+              Email Us : contact@ritepredict.com
+            </p>
+            <p style={{ fontSize: '1em' }}>
+              For Adverts : advert@ritepredict.com
+            </p>
             <p style={{ fontSize: '1em' }}>
               Working Hours : 9:00AM - 5:00PM WAT
             </p>

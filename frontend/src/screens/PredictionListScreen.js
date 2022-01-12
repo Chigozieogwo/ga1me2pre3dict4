@@ -59,9 +59,9 @@ const PredictionListScreen = ({ history, match }) => {
         ) : error ? (
           <Message variant="danger">{error}</Message>
         ) : (
-          <div style={{ marginLeft: '3em', marginRight: '3em' }}>
+          <div style={{ marginLeft: '.2em', marginRight: '.2em' }}>
             <Table striped bordered hover responsive className="table-sm">
-              <thead>
+              <thead className="tablehead">
                 <tr>
                   <th style={{ textAlign: 'center', verticalAlign: 'middle' }}>
                     Id
@@ -86,7 +86,7 @@ const PredictionListScreen = ({ history, match }) => {
                   </th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="tablebody">
                 {predictions.map((prediction, index) => (
                   <tr key={prediction._id}>
                     <td

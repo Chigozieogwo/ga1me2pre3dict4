@@ -12,9 +12,9 @@ const Footer = () => {
         <FormContainer>
           <Row>
             <Col md={4}>
-              <h1 className="mt-4 ps-4"> Xcesswin</h1>
+              <h1 className="mt-4 ps-4"> RITEPREDICT</h1>
               <p className="ps-4 pe-4">
-                Our expert team works tirelessly to make Kingspredict the best
+                Our expert team works tirelessly to make Ritepredict the best
                 prediction site in the world by providing its users with the
                 best and assured football predictions and basketball predictions
                 tips & Algorithm-based Research.
@@ -37,12 +37,14 @@ const Footer = () => {
               <LinkContainer to="/disclaimer">
                 <Nav.Link className="footer">Disclaimer</Nav.Link>
               </LinkContainer>
-              <LinkContainer  onClick={() =>
-                          window.open(
-                            'https://refpa.top/L?tag=d_1256913m_97c_&site=1256913&ad=97',
-                            '_blank'
-                          )
-                        } to="">
+              <LinkContainer
+                onClick={() =>
+                  window.open(
+                    'https://refpa.top/L?tag=d_1256913m_97c_&site=1256913&ad=97',
+                    '_blank'
+                  )
+                }
+                to="">
                 <Nav.Link className="footer">How To Pay</Nav.Link>
               </LinkContainer>
             </Col>
@@ -95,13 +97,13 @@ const Footer = () => {
               <LinkContainer to="www.gmail.com">
                 <Nav.Link>
                   <span className="text-success">Email Us :</span>{' '}
-                  contact@xcesswin.com
+                  contact@ritepredict.com
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="">
                 <Nav.Link>
                   <span className="text-success">For Adverts :</span>{' '}
-                  advert@xcesswin.com
+                  advert@ritepredict.com
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="">
@@ -114,7 +116,7 @@ const Footer = () => {
           </Row>
 
           <Row>
-            <Col className="text-center py-3">Copyright @ Xcesswin</Col>
+            <Col className="text-center py-3">Copyright @ Ritepredict</Col>
           </Row>
         </FormContainer>
       </Container>

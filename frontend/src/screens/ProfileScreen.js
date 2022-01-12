@@ -227,7 +227,7 @@ const ProfileScreen = ({ location, history, match }) => {
       <span
         style={{ fontSize: '0.5rem', marginTop: '-6px' }}
         className="bg-danger pt-1 pb-1 ps-3 pe-3 text-white rounded">
-        Expired Subscription
+        Vip Subscription Expired
       </span>
     </span>
   )
@@ -321,7 +321,7 @@ const ProfileScreen = ({ location, history, match }) => {
               backgroundColor: '#32CD32',
             }}
             className=" pt-1 pb-1 ps-3 pe-3 text-white rounded">
-            Countdown ( Expires In )
+            Vip Expire Countdown
           </span>
         </span>
       )
@@ -331,136 +331,136 @@ const ProfileScreen = ({ location, history, match }) => {
   // Random component
   const CompletionistPromo = () => (
     <span className="span1">
-          <span
-            style={{
-              display: 'table-cell',
-              verticalAlign: 'middle',
-              textAlign: 'center',
-              height: '70px',
-              width: '70px',
-              borderRadius: '50%',
-              backgroundColor: '#E74C3C',
-              // color: '#32CD32',
-              // border: '3px solid #32CD32',
-            }}
-            className=" m-1 text-white  font-weight-bold ">
-            <span
-              style={{
-                fontSize: '2rem',
-                fontWeight: 'bolder',
-              }}>
-              00
-            </span>
-            <br />
-            <div style={{ fontSize: '0.6rem', marginTop: '-6px' }}>days</div>
-          </span>
-          <span
-            style={{
-              display: 'table-cell',
-              verticalAlign: 'middle',
-              textAlign: 'center',
-              fontWeight: 'bolder',
-              fontSize: '1.5rem',
-              color: 'gray',
-              width: '10px',
-            }}>
-            :
-          </span>
-          <span
-            style={{
-              display: 'table-cell',
-              verticalAlign: 'middle',
-              textAlign: 'center',
-              backgroundColor: '#E74C3C',
-              height: '70px',
-              width: '70px',
-              borderRadius: '50%',
-              // color: '#32CD32',
-              // border: '3px solid #32CD32',
-            }}
-            className=" m-1 text-white  font-weight-bold ">
-            <span
-              style={{
-                fontSize: '2rem',
-                fontWeight: 'bolder',
-              }}>
-              00
-            </span>
-            <br />
-            <div style={{ fontSize: '0.6rem', marginTop: '-6px' }}>hours</div>
-          </span>
-          <span
-            style={{
-              display: 'table-cell',
-              verticalAlign: 'middle',
-              textAlign: 'center',
-              fontWeight: 'bolder',
-              fontSize: '1.5rem',
-              color: 'gray',
-              width: '10px',
-            }}>
-            :
-          </span>
-          <span
-            style={{
-              display: 'table-cell',
-              verticalAlign: 'middle',
-              textAlign: 'center',
-              // color: '#32CD32',
-              // border: '3px solid #32CD32',
-              height: '70px',
-              width: '70px',
-              borderRadius: '50%',
-              backgroundColor: '#E74C3C',
-            }}
-            className=" m-1 text-white font-weight-bold ">
-            <span
-              style={{
-                fontSize: '2rem',
-                fontWeight: 'bolder',
-              }}>
-              00
-            </span>
-            <br />
-            <div style={{ fontSize: '0.6rem', marginTop: '-6px' }}>mins</div>
-          </span>
-          <span
-            style={{
-              display: 'table-cell',
-              verticalAlign: 'middle',
-              textAlign: 'center',
-              fontWeight: 'bolder',
-              fontSize: '1.5rem',
-              color: 'gray',
-              width: '10px',
-            }}>
-            :
-          </span>
-          <span
-            style={{
-              display: 'table-cell',
-              verticalAlign: 'middle',
-              textAlign: 'center',
-              // color: '#32CD32',
-              // border: '3px solid #ffff',
-              height: '70px',
-              width: '70px',
-              borderRadius: '50%',
-              backgroundColor: '#E74C3C',
-            }}
-            className=" m-1 text-white  font-weight-bold ">
-            <span
-              style={{
-                fontSize: '2rem',
-                fontWeight: 'bolder',
-              }}>
-              00
-            </span>
-            <br />
-            <div style={{ fontSize: '0.6rem', marginTop: '-6px' }}>secs</div>
-          </span>
-          <br />
-          {/* <span
+      <span
+        style={{
+          display: 'table-cell',
+          verticalAlign: 'middle',
+          textAlign: 'center',
+          height: '70px',
+          width: '70px',
+          borderRadius: '50%',
+          backgroundColor: '#E74C3C',
+          // color: '#32CD32',
+          // border: '3px solid #32CD32',
+        }}
+        className=" m-1 text-white  font-weight-bold ">
+        <span
+          style={{
+            fontSize: '2rem',
+            fontWeight: 'bolder',
+          }}>
+          00
+        </span>
+        <br />
+        <div style={{ fontSize: '0.6rem', marginTop: '-6px' }}>days</div>
+      </span>
+      <span
+        style={{
+          display: 'table-cell',
+          verticalAlign: 'middle',
+          textAlign: 'center',
+          fontWeight: 'bolder',
+          fontSize: '1.5rem',
+          color: 'gray',
+          width: '10px',
+        }}>
+        :
+      </span>
+      <span
+        style={{
+          display: 'table-cell',
+          verticalAlign: 'middle',
+          textAlign: 'center',
+          backgroundColor: '#E74C3C',
+          height: '70px',
+          width: '70px',
+          borderRadius: '50%',
+          // color: '#32CD32',
+          // border: '3px solid #32CD32',
+        }}
+        className=" m-1 text-white  font-weight-bold ">
+        <span
+          style={{
+            fontSize: '2rem',
+            fontWeight: 'bolder',
+          }}>
+          00
+        </span>
+        <br />
+        <div style={{ fontSize: '0.6rem', marginTop: '-6px' }}>hours</div>
+      </span>
+      <span
+        style={{
+          display: 'table-cell',
+          verticalAlign: 'middle',
+          textAlign: 'center',
+          fontWeight: 'bolder',
+          fontSize: '1.5rem',
+          color: 'gray',
+          width: '10px',
+        }}>
+        :
+      </span>
+      <span
+        style={{
+          display: 'table-cell',
+          verticalAlign: 'middle',
+          textAlign: 'center',
+          // color: '#32CD32',
+          // border: '3px solid #32CD32',
+          height: '70px',
+          width: '70px',
+          borderRadius: '50%',
+          backgroundColor: '#E74C3C',
+        }}
+        className=" m-1 text-white font-weight-bold ">
+        <span
+          style={{
+            fontSize: '2rem',
+            fontWeight: 'bolder',
+          }}>
+          00
+        </span>
+        <br />
+        <div style={{ fontSize: '0.6rem', marginTop: '-6px' }}>mins</div>
+      </span>
+      <span
+        style={{
+          display: 'table-cell',
+          verticalAlign: 'middle',
+          textAlign: 'center',
+          fontWeight: 'bolder',
+          fontSize: '1.5rem',
+          color: 'gray',
+          width: '10px',
+        }}>
+        :
+      </span>
+      <span
+        style={{
+          display: 'table-cell',
+          verticalAlign: 'middle',
+          textAlign: 'center',
+          // color: '#32CD32',
+          // border: '3px solid #ffff',
+          height: '70px',
+          width: '70px',
+          borderRadius: '50%',
+          backgroundColor: '#E74C3C',
+        }}
+        className=" m-1 text-white  font-weight-bold ">
+        <span
+          style={{
+            fontSize: '2rem',
+            fontWeight: 'bolder',
+          }}>
+          00
+        </span>
+        <br />
+        <div style={{ fontSize: '0.6rem', marginTop: '-6px' }}>secs</div>
+      </span>
+      <br />
+      {/* <span
             style={{
               fontSize: '0.5rem',
               marginTop: '-6px',
@@ -469,8 +469,7 @@ const ProfileScreen = ({ location, history, match }) => {
             className=" pt-1 pb-1 ps-3 pe-3 text-white rounded">
             Countdown ( Expires In )
           </span> */}
-        </span>
-     
+    </span>
   )
 
   // Renderer callback with condition
@@ -626,8 +625,7 @@ const ProfileScreen = ({ location, history, match }) => {
             Countdown ( Expires In )
           </span> */}
         </span>
-     
-     )
+      )
     }
   }
   return (
@@ -668,7 +666,7 @@ const ProfileScreen = ({ location, history, match }) => {
           <Col lg={3}>
             <div
               style={{ border: '2.5px  solid #2C3E50' }}
-              className="p-4 mb-4">
+              className="ps-4 pe-4 pt-2 pb-2 mb-4">
               {/* <h2>User Profile</h2> */}
               {/* <p
                 style={{
@@ -747,7 +745,7 @@ const ProfileScreen = ({ location, history, match }) => {
                     <span
                       style={{ fontSize: '0.5rem', marginTop: '-6px' }}
                       className="bg-primary pt-1 pb-1 ps-3 pe-3 text-white rounded">
-                      Await Subscription
+                      Await Vip Subscription
                     </span>
                   </span>
                 ) : (
@@ -769,7 +767,7 @@ const ProfileScreen = ({ location, history, match }) => {
               ) : error ? (
                 <Message variant="danger">{error}</Message>
               ) : (
-                <div>
+                <div className="hideme">
                   <Form onSubmit={submitHandler}>
                     <Form.Group controlId="name">
                       <Form.Label>Name</Form.Label>
@@ -889,7 +887,7 @@ const ProfileScreen = ({ location, history, match }) => {
               </div>
             </div>
           </Col>
-          <Col className=" ps-4 pe-4 " lg={9}>
+          <Col className=" ps-2 pe-2 " lg={9}>
             {user.isVip ? (
               <div>
                 <div className="pb-4">
@@ -934,30 +932,22 @@ const ProfileScreen = ({ location, history, match }) => {
                     prediction.isPublished ? (
                       <Table striped bordered hover size="sm">
                         {prediction.fixture.length === 0 ? (
-                          <p
-                            className="p-3 text-bold mt-3 mb-3 rounded"
+                          <div
+                            className="p-3  text-bold mt-3 mb-3 rounded"
                             style={{
                               backgroundColor: '#32CD32',
-                              fontSize: '1rem',
+                              fontSize: '.8rem',
                             }}>
-                            <DateIcon /> -
-                            {moment(prediction.date).format('DD/MM/YYYY')}
+                            📢📢📢
                             <span
                               style={{ fontWeight: 'bold' }}
-                              className="ms-5">
+                              className="ms-3">
                               {prediction.title}
                             </span>
-                          </p>
+                          </div>
                         ) : (
-                          <thead className="bg-primary">
+                          <thead className="bg-primary tablehead">
                             <tr>
-                              <th
-                                style={{
-                                  textAlign: 'center',
-                                  verticalAlign: 'middle',
-                                }}>
-                                S/N
-                              </th>
                               <th
                                 style={{
                                   textAlign: 'center',
@@ -1006,15 +996,8 @@ const ProfileScreen = ({ location, history, match }) => {
                         )}
 
                         {prediction.fixture.map((fixture, index) => (
-                          <tbody>
+                          <tbody className="tablebody">
                             <tr key={fixture._id}>
-                              <td
-                                style={{
-                                  textAlign: 'center',
-                                  verticalAlign: 'middle',
-                                }}>
-                                {index + 1}
-                              </td>
                               <td
                                 style={{
                                   textAlign: 'center',
@@ -1099,30 +1082,22 @@ const ProfileScreen = ({ location, history, match }) => {
                     prediction.isPublished ? (
                       <Table striped bordered hover size="sm">
                         {prediction.fixture.length === 0 ? (
-                          <p
-                            className="p-3 text-bold mt-3 mb-3 rounded"
+                          <div
+                            className="p-3  text-bold mt-3 mb-3 rounded"
                             style={{
                               backgroundColor: '#32CD32',
-                              fontSize: '1rem',
+                              fontSize: '.8rem',
                             }}>
-                            <DateIcon /> -
-                            {moment(prediction.date).format('DD/MM/YYYY')}
+                            📢📢📢
                             <span
                               style={{ fontWeight: 'bold' }}
-                              className="ms-5">
+                              className="ms-3">
                               {prediction.title}
                             </span>
-                          </p>
+                          </div>
                         ) : (
-                          <thead className="bg-primary">
+                          <thead className="bg-primary tablehead">
                             <tr>
-                              <th
-                                style={{
-                                  textAlign: 'center',
-                                  verticalAlign: 'middle',
-                                }}>
-                                S/N
-                              </th>
                               <th
                                 style={{
                                   textAlign: 'center',
@@ -1171,15 +1146,8 @@ const ProfileScreen = ({ location, history, match }) => {
                         )}
 
                         {prediction.fixture.map((fixture, index) => (
-                          <tbody>
+                          <tbody className="tablebody">
                             <tr key={fixture._id}>
-                              <td
-                                style={{
-                                  textAlign: 'center',
-                                  verticalAlign: 'middle',
-                                }}>
-                                {index + 1}
-                              </td>
                               <td
                                 style={{
                                   textAlign: 'center',
@@ -1267,7 +1235,7 @@ const ProfileScreen = ({ location, history, match }) => {
                             </span>
                           </p>
                         ) : (
-                          <thead className="bg-primary">
+                          <thead className="bg-primary tablehead">
                             <tr>
                               <th
                                 style={{
@@ -1324,15 +1292,8 @@ const ProfileScreen = ({ location, history, match }) => {
                         )}
 
                         {prediction.fixture.map((fixture, index) => (
-                          <tbody>
+                          <tbody className="tablebody">
                             <tr key={fixture._id}>
-                              <td
-                                style={{
-                                  textAlign: 'center',
-                                  verticalAlign: 'middle',
-                                }}>
-                                {index + 1}
-                              </td>
                               <td
                                 style={{
                                   textAlign: 'center',

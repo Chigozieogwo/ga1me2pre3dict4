@@ -12,19 +12,20 @@ const DisclaimerScreen = () => {
         </h1>
 
         <p style={{ fontSize: '1.2em' }}>
-          Xcesswin.com is not a bookmaker, betting and does not collect bets.
+          Ritepredict.com is not a bookmaker, betting and does not collect bets.
           Our predictions, our techniques, guides, help, and recommendations as
           we try to make them as accurate as possible are subject to errors.
           Predictions must be considered as recommendations and not incitement
-          to bet, even Xcesswin remember that gambling should be considered as
-          entertainment. The visitor and Xcesswin user are solely responsible
-          for his actions and his decisions and in no event shall the site and
-          its employees can be held responsible for the information included.
+          to bet, even Ritepredict remember that gambling should be considered
+          as entertainment. The visitor and Ritepredict user are solely
+          responsible for his actions and his decisions and in no event shall
+          the site and its employees can be held responsible for the information
+          included.
         </p>
         <p style={{ fontSize: '1.2em' }}>
-          Xcesswin not be liable for any loss of money or anything else that may
-          result from the use of the information on Xcesswin. Also please note
-          that some countries may be in place some restrictions on sports
+          Ritepredict not be liable for any loss of money or anything else that
+          may result from the use of the information on Ritepredict. Also please
+          note that some countries may be in place some restrictions on sports
           betting and is the sole responsibility of the user/visitor to see and
           learn about these regulations. We reserve the right to discretion,
           without prior notice, to do changes and corrections to this site.
@@ -35,10 +36,10 @@ const DisclaimerScreen = () => {
         </p>
         <p style={{ fontSize: '1.2em' }}>
           By opting to receive soccer predictions and tips, you accept that all
-          Xcesswin predictions and tips are for informational purposes only
-          and that Xcesswin will take no responsibility for any losses
+          Ritepredict predictions and tips are for informational purposes only
+          and that Ritepredict will take no responsibility for any losses
           incurred by you the subscriber, as a direct result of acting upon
-          received Xcesswin information. We do not encourage gambling in any
+          received Ritepredict information. We do not encourage gambling in any
           sort of form. Users under 18 years old must seek parental consent.
         </p>
         <p style={{ fontSize: '1.2em' }}></p>
