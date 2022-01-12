@@ -137,7 +137,10 @@ const HomeScreen = ({ history, match }) => {
                 style={{ textAlign: 'center', marginTop: '.7em' }}>
                 Free Daily Betting Tips by Experts
               </p>
-              <h6>
+              <h6
+                style={{
+                  fontSize: '.7rem',
+                }}>
                 Our average accuracy is as high as 90-95%, We use relevant
                 statistics and trends to determine our predictions.Our main aim
                 is to give and enriched our users with consistent winning
@@ -155,28 +158,38 @@ const HomeScreen = ({ history, match }) => {
                   prediction.isPublished ? (
                     <Table striped bordered hover size="sm">
                       {prediction.fixture.length === 0 ? (
-                        <p
-                          className="p-3 text-bold mt-3 mb-3 rounded"
+                        <div
+                          className="p-3  text-bold mt-3 mb-3 rounded"
                           style={{
                             backgroundColor: '#32CD32',
-                            fontSize: '1rem',
+                            fontSize: '.8rem',
                           }}>
-                          <DateIcon /> -
+                          {/* <span style={{
+                           
+                            fontSize: '.6rem',
+                          }}>
+      <DateIcon /> -
                           {moment(prediction.date).format('DD/MM/YYYY')}
-                          <span style={{ fontWeight: 'bold' }} className="ms-5">
+                            </span> */}
+                          📢📢📢
+                          <span style={{ fontWeight: 'bold' }} className="ms-3">
                             {prediction.title}
                           </span>
-                        </p>
+                        </div>
                       ) : (
-                        <thead className="bg-primary">
+                        <thead
+                          style={{
+                            fontSize: '.6rem',
+                          }}
+                          className="bg-primary">
                           <tr>
-                            <th
+                            {/* <th
                               style={{
                                 textAlign: 'center',
                                 verticalAlign: 'middle',
                               }}>
                               S/N
-                            </th>
+                            </th> */}
                             <th
                               style={{
                                 textAlign: 'center',
@@ -225,15 +238,19 @@ const HomeScreen = ({ history, match }) => {
                       )}
 
                       {prediction.fixture.map((fixture, index) => (
-                        <tbody>
+                        <tbody
+                          style={{
+                            fontSize: '.5rem',
+                            fontWeight: 'bold',
+                          }}>
                           <tr key={fixture._id}>
-                            <td
+                            {/* <td
                               style={{
                                 textAlign: 'center',
                                 verticalAlign: 'middle',
                               }}>
                               {index + 1}
-                            </td>
+                            </td> */}
                             <td
                               style={{
                                 textAlign: 'center',
@@ -318,28 +335,31 @@ const HomeScreen = ({ history, match }) => {
                   prediction.isPublished ? (
                     <Table striped bordered hover size="sm">
                       {prediction.fixture.length === 0 ? (
-                        <p
-                          className="p-3 text-bold mt-3 mb-3 rounded"
+                        <div
+                          className="p-3  text-bold mt-3 mb-3 rounded"
                           style={{
                             backgroundColor: '#32CD32',
-                            fontSize: '1rem',
+                            fontSize: '.8rem',
                           }}>
-                          <DateIcon /> -
-                          {moment(prediction.date).format('DD/MM/YYYY')}
-                          <span style={{ fontWeight: 'bold' }} className="ms-5">
+                          {/* <span style={{
+                         
+                          fontSize: '.6rem',
+                        }}>
+    <DateIcon /> -
+                        {moment(prediction.date).format('DD/MM/YYYY')}
+                          </span> */}
+                          📢📢📢
+                          <span style={{ fontWeight: 'bold' }} className="ms-3">
                             {prediction.title}
                           </span>
-                        </p>
+                        </div>
                       ) : (
-                        <thead className="bg-primary">
+                        <thead
+                          style={{
+                            fontSize: '.6rem',
+                          }}
+                          className="bg-primary">
                           <tr>
-                            <th
-                              style={{
-                                textAlign: 'center',
-                                verticalAlign: 'middle',
-                              }}>
-                              S/N
-                            </th>
                             <th
                               style={{
                                 textAlign: 'center',
@@ -388,15 +408,12 @@ const HomeScreen = ({ history, match }) => {
                       )}
 
                       {prediction.fixture.map((fixture, index) => (
-                        <tbody>
+                        <tbody
+                          style={{
+                            fontSize: '.5rem',
+                            fontWeight:'bold'
+                          }}>
                           <tr key={fixture._id}>
-                            <td
-                              style={{
-                                textAlign: 'center',
-                                verticalAlign: 'middle',
-                              }}>
-                              {index + 1}
-                            </td>
                             <td
                               style={{
                                 textAlign: 'center',
@@ -471,7 +488,10 @@ const HomeScreen = ({ history, match }) => {
                 <h4 className="text-center pt-2">
                   GUARANTEED SOCCER BETTING TIPS
                 </h4>
-                <h6>
+                <h6
+                  style={{
+                    fontSize: '.7rem',
+                  }}>
                   Gambling or betting online can be a very stimulating and fun
                   thing but it becomes more interesting when you win every bet
                   you place. It isn't always easy to win but there are ways to
@@ -481,27 +501,60 @@ const HomeScreen = ({ history, match }) => {
                   to winning big is by applying the tips and playing smart.
                 </h6>
                 <section class="icons-container">
-                  <Row>
-                    <Col md={6}>
+                  <Row
+                    style={{
+                      fontSize: '.8rem',
+                    }}>
+                    <Col
+                      style={{
+                        fontSize: '.6rem',
+                      }}
+                      md={6}>
                       <div class="icons">
                         <i class="fas fa-home"></i>
                         <div class="content">
-                          <h3>500,000 +</h3>
+                          <h3
+                            style={{
+                              fontSize: '.6rem',
+                            }}>
+                            500,000 +
+                          </h3>
                           <p>Organic Visitors</p>
                         </div>
                       </div>
                     </Col>
-                    <Col md={6}>
+                    <Col
+                      style={{
+                        fontSize: '.6rem',
+                      }}
+                      md={6}>
                       <div class="icons">
-                        <i class="fas fa-user-tie"></i>
+                        <i
+                          style={{
+                            fontSize: '.8rem',
+                          }}
+                          class="fas fa-user-tie"></i>
                         <div class="content">
-                          <h3>50,000 +</h3>
-                          <p>Vip Users</p>
+                          <h3
+                            style={{
+                              fontSize: '.6rem',
+                            }}>
+                            50,000 +
+                          </h3>
+                          <p
+                            style={{
+                              fontSize: '.8rem',
+                            }}>
+                            Vip Users
+                          </p>
                         </div>
                       </div>
                     </Col>
                   </Row>
-                  <Row>
+                  <Row
+                    style={{
+                      fontSize: '.8rem',
+                    }}>
                     <Col md={6}>
                       <div class="icons">
                         <i class="fas fa-users"></i>
@@ -532,28 +585,30 @@ const HomeScreen = ({ history, match }) => {
                   prediction.isPublished ? (
                     <Table striped bordered hover size="sm">
                       {prediction.fixture.length === 0 ? (
-                        <p
-                          className="p-3 text-bold mt-3 mb-3 rounded"
+                        <div
+                          className="p-3  text-bold mt-3 mb-3 rounded"
                           style={{
                             backgroundColor: '#32CD32',
-                            fontSize: '1rem',
+                            fontSize: '.8rem',
                           }}>
-                          <DateIcon /> -
-                          {moment(prediction.date).format('DD/MM/YYYY')}
-                          <span style={{ fontWeight: 'bold' }} className="ms-5">
+                          {/* <span style={{
+                          
+                           fontSize: '.6rem',
+                         }}>
+     <DateIcon /> -
+                         {moment(prediction.date).format('DD/MM/YYYY')}
+                           </span> */}
+                          📢📢📢
+                          <span style={{ fontWeight: 'bold' }} className="ms-3">
                             {prediction.title}
                           </span>
-                        </p>
+                        </div>
                       ) : (
-                        <thead className="bg-primary">
+                        <thead style={{
+                          
+                          fontSize: '.6rem',
+                        }} className="bg-primary">
                           <tr>
-                            <th
-                              style={{
-                                textAlign: 'center',
-                                verticalAlign: 'middle',
-                              }}>
-                              S/N
-                            </th>
                             <th
                               style={{
                                 textAlign: 'center',
@@ -602,15 +657,12 @@ const HomeScreen = ({ history, match }) => {
                       )}
 
                       {prediction.fixture.map((fixture, index) => (
-                        <tbody>
+                        <tbody style={{
+                          
+                          fontSize: '.5rem',
+                          fontWeight:'bold'
+                        }}>
                           <tr key={fixture._id}>
-                            <td
-                              style={{
-                                textAlign: 'center',
-                                verticalAlign: 'middle',
-                              }}>
-                              {index + 1}
-                            </td>
                             <td
                               style={{
                                 textAlign: 'center',
